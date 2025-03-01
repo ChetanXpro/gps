@@ -1,0 +1,17 @@
+[package]
+name = "reader"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "1.0"   # For error handling
+byteorder = "1.4" 
+lru = "0.10"
+tracing = "0.1.41"
+env_logger = "0.11.6"
+tracing-subscriber = "0.3.19"
+minifb = "0.24.0"
+
+[[example]]
+name = "header"
+path = "examples/header.rs"
